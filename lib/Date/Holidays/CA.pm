@@ -6,7 +6,7 @@
 # Rick Scott 
 # rick@shadowspar.dyndns.org
 #
-# Tue Jul  7 23:26:22 EDT 2009
+# Sun Oct 25 14:32:20 EDT 2009
 
 =head1 NAME 
 
@@ -77,7 +77,7 @@ our %EXPORT_TAGS = ( 'all' => [ qw(
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw();
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 FUNCTIONS / METHODS
@@ -572,6 +572,7 @@ my %HOLIDAYS_FOR = (
     
     ON => [
             \&_new_years_day,            'New Year\'s Day', 'Jour de l\'An',
+            \&_family_day,               'Family Day', 'Jour de la Famille',
             \&_good_friday,              'Good Friday', 'Vendredi Saint',
             \&_victoria_day,             'Victoria Day', 'Fête de la Reine',
             \&_canada_day,               'Canada Day', 'Fête du Canada',

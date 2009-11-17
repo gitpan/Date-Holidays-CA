@@ -1,4 +1,4 @@
-Date-Holidays-CA version 0.01
+Date-Holidays-CA version 0.02
 =============================
 
 OVERVIEW
@@ -31,6 +31,7 @@ Carp
 DateTime
 DateTime::Event::Easter
 Test::More
+Test::Exception
 
 
 COPYRIGHT AND LICENCE

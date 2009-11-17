@@ -8,6 +8,7 @@ WriteMakefile(
                        'Carp'                    => 0,
                        'DateTime'                => 0,
                        'DateTime::Event::Easter' => 0,
+                       'Test::Exception'         => 0,
                        'Test::More'              => 0,
                    }, 
     ABSTRACT_FROM  => 'lib/Date/Holidays/CA.pm', 

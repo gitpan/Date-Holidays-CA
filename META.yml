@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Date-Holidays-CA
-version:             0.01
+version:             0.02
 abstract:            Holidays for Canadian locales
 license:             ~
 author:              
@@ -11,6 +11,7 @@ requires:
     Carp:                          0
     DateTime:                      0
     DateTime::Event::Easter:       0
+    Test::Exception:               0
     Test::More:                    0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html

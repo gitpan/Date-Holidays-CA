@@ -8,6 +8,8 @@
 #
 # Sun Oct 25 14:32:20 EDT 2009
 
+=encoding utf8
+
 =head1 NAME 
 
 Date::Holidays::CA - Holidays for Canadian locales
@@ -77,7 +79,7 @@ our %EXPORT_TAGS = ( 'all' => [ qw(
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw();
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 =head1 FUNCTIONS / METHODS

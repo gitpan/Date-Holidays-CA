@@ -7,3 +7,10 @@
 
       Add Family Day to Ontario Holiday list.  Closes RT 50525.
       Thanks to Kevin Field for pointing this one out. 
+
+0.03  Released Fri Sep 24 2010.
+
+      Fix mojibake in Date::Holidays::CA pod by properly declaring
+      encoding to be utf8.  Thanks to Chris McMahon for pointing it out.
+
+      Change build toolkit from Extutils::MakeMaker to Module::Build. 

@@ -1,7 +1,6 @@
 Changes
 CREDITS
 lib/Date/Holidays/CA.pm
-Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
@@ -12,3 +11,4 @@ t/04correctness.t
 t/05internals.t
 t/10pod.t
 t/11pod-coverage.t
+Build.PL 
